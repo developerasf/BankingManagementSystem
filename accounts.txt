@@ -1,0 +1,4 @@
+1010101010;9709;Admin;0.0;CurrentAccount
+0209099343;3792;Alamin;9.9999E7;SavingsAccount
+0748261834;1397;Kabir;13000.0;FixedAccount
+0401485831;5821;Rafi;9.9958E7;SavingsAccount
