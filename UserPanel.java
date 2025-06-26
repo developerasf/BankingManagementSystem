@@ -75,7 +75,7 @@ public class UserPanel extends JFrame {
             double amount = Double.parseDouble(amountStr);
             if (amount > 0 && amount <= account.getBalance()) {
                 account.setBalance(account.getBalance() - amount);
-                account.addTransaction("Withdrawn $" + amount + " at " + new java.util.Date());
+                account.addTransaction("Withdrawn $" + amount);
                 bank.saveToFile();
                 balanceLabel.setText("Balance: $" + String.format("%.2f", account.getBalance()));
                 JOptionPane.showMessageDialog(this, "Withdrawal successful!");
